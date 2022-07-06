@@ -50,6 +50,12 @@ We experimented with different transformer models like BERT base uncased, RoBERT
 ### Task 4: Classification of tweets self-reporting potential COVID19 cases
 We experimented with different transformer models like BERT base uncased, RoBERTa base, SciBERT with scivocab, and BioBERT base v1.1. Also, tried domain specific BERT model such as CT-BERT. We fine-tuned each model on the pre-processed data and performed classification through a linear layer. The model were trained for 5 epochs with batch size 32 and learning rate as 2e-5. We found the best result for RoBERTa base on the validation set. Table 4 shows the performance of the model on validation set.
 
+## Results
+Below we summarize the performance different models on all tasks. The best score among the different models is highlighted in bold for each task. Table 3 and 4 shows the performance of the models on validation set. For Task 1, the best F1-score we achieved was 0.64 using RoBERTa model which was an 16% improvement over the baseline model. Task 2, the best F1-score for NER was achieved using BioBERT which was an 11.5% and 16.9% improvement over the baseline model for strict and relaxed measure. For NER+Normalization we got the best F1-score as 59% and 55% which was an 49% and 40.3% improvement over the baseline for strict and relaxed scores respectively. Task 3, RoBERTa and BioBERT both gave us the best F1-micro score which was 0.984 which was an 2% improvement over the baseline model. Finally, task 4, RoBERTa model gave us the best F1-score with 0.75 which was an 23% improvement over the baseline model
+<p align="center">
+<img width="753" alt="image" src="https://user-images.githubusercontent.com/24275587/177450575-8e7fd642-659e-4fdb-b3b7-a4edf0948227.png">
+</p>
+
 The report (`Report.pdf`) contains details about the result and error analysis in more detail.
 
 ### Collaboration:
