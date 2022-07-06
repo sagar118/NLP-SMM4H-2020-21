@@ -1,4 +1,4 @@
-# NLP SMM4H 2020 21
+# NLP SMM4H 2020 & 21
 
 ## Introduction
 This project aims to tackle various problems in the health care domain. The rise of COVID-19 brought a new norm in ways in which humans communicate. Platforms such as Twitter have proven to be effective and generate loads of user generated data. As people have more freely shared their life experiences on the platform, it gives opportunity are the pharmaceutical firms to leverage insights from the data using natural language processing.
